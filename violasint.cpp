@@ -47,7 +47,7 @@ int main(int argc, char* argv[]) {
     }
 
     // Define image resolution
-    int width = 1080, height = 1080;
+    int width = 2096, height = 2096;
     cv::Mat image = cv::Mat::zeros(height, width, CV_8UC1);
 
     // Populate image with intensity values
