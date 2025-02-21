@@ -50,7 +50,7 @@ int main(int argc, char* argv[]) {
     int width = 2096, height = 2096;
     cv::Mat image = cv::Mat::zeros(height, width, CV_8UC1);
 
-    // Populate image with intensity values
+    // Populate image with intensity valuesgit 
     for (PointId i = 0; i < view->size(); ++i) {
         double x = view->getFieldAs<double>(Dimension::Id::X, i);
         double y = view->getFieldAs<double>(Dimension::Id::Y, i);
